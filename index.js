@@ -93,7 +93,7 @@ function middleware(transformer) {
   var url = require('url');
   var mime = require('mime');
   return function (req, res, next) {
-    var path = url.parse(req.url).pathname;
+    var path = url.parse(req.url).pathname.replace(/^\//, '');
     res.setHeader('Content-Type', mime.lookup(path));
     debug('render: ' + path);
     transformer.renderTo(path, function (err, text) {
