@@ -1,6 +1,6 @@
 {
   "name": "transform",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "The ultimate transformation/build/compilation middleware/command line/etc. system for node.js",
   "main": "index.js",
   "scripts": {
