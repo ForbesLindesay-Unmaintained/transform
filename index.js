@@ -94,11 +94,11 @@ function middleware(transformer) {
   var mime = require('mime');
   return function (req, res, next) {
     var path = url.parse(req.url).pathname.replace(/^\//, '');
-    res.setHeader('Content-Type', mime.lookup(path));
     debug('render: ' + path);
     transformer.renderTo(path, function (err, text) {
       if (err && err.code === 'ENOENT') return next();
       if (err) return next(err);
+      res.setHeader('Content-Type', mime.lookup(path));
       res.end(text);
     });
   }
