@@ -1,6 +1,6 @@
 {
   "name": "transform",
-  "version": "0.0.9",
+  "version": "1.0.0",
   "description": "The ultimate transformation/build/compilation middleware/command line/etc. system for node.js",
   "main": "index.js",
   "scripts": {
@@ -15,9 +15,13 @@
   "readmeFilename": "README.md",
   "gitHead": "4a11abbfb88bfb4d85107cc1fa4e876564815ef6",
   "dependencies": {
-    "mime": "~1.2.9",
-    "debug": "~0.7.0",
-    "wrench": "~1.4.4",
-    "transformers": "~1"
+    "transformers": "~2.0.0",
+    "callsite": "~1.0.0",
+    "resolve": "~0.3.1",
+    "promise": "~2.0.0",
+    "ms": "~0.6.0"
+  },
+  "devDependencies": {
+    "express": "~3.1.1"
   }
 }
