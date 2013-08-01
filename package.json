@@ -15,10 +15,10 @@
   "readmeFilename": "README.md",
   "gitHead": "4a11abbfb88bfb4d85107cc1fa4e876564815ef6",
   "dependencies": {
-    "transformers": "~2.0.0",
+    "transformers": "~2.1.0",
     "callsite": "~1.0.0",
-    "resolve": "~0.3.1",
-    "promise": "~2.0.0",
+    "resolve": "~0.4.1",
+    "promise": "~3.2.0",
     "ms": "~0.6.0"
   },
   "devDependencies": {

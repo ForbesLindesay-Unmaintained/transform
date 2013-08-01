@@ -2,6 +2,9 @@
 
 The ultimate transformation/build/compilation middleware/command line/etc. system for node.js
 
+[![Dependency Status](https://gemnasium.com/ForbesLindesay/transform.png)](https://gemnasium.com/ForbesLindesay/transform)
+[![NPM version](https://badge.fury.io/js/transform.png)](http://badge.fury.io/js/transform)
+
 For a list of supported languages, check out [transformers](https://github.com/ForbesLindesay/transformers).  Here are a few highlights:
 
  - coffee-script
