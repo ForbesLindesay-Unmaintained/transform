@@ -14,7 +14,8 @@ var dirname = path.dirname;
 var stat = fs.statSync;
 
 exports = module.exports = transform;
-function transform(transformerName) {
+function transform(transformerName, engine) {
+  if (engine) transformers[transformerName].engine = engine
   load(transformers[transformerName]);
   function transformer(path, options) {
     if (resolve(path) === normalize(path)) {
