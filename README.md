@@ -2,8 +2,8 @@
 
 The ultimate transformation/build/compilation middleware/command line/etc. system for node.js
 
-[![Dependency Status](https://gemnasium.com/ForbesLindesay/transform.png)](https://gemnasium.com/ForbesLindesay/transform)
-[![NPM version](https://badge.fury.io/js/transform.png)](http://badge.fury.io/js/transform)
+[![Dependency Status](https://img.shields.io/gemnasium/ForbesLindesay/transform.svg)](https://gemnasium.com/ForbesLindesay/transform)
+[![NPM version](https://img.shields.io/npm/v/transform.svg)](http://badge.fury.io/js/transform)
 
 For a list of supported languages, check out [transformers](https://github.com/ForbesLindesay/transformers).  Here are a few highlights:
 
